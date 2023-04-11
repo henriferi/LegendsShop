@@ -1,0 +1,43 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000e5;
+    padding: 0 7rem 0 7rem;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-pesquisa {
+    border: none;
+    margin-left: 1rem;
+    padding: 0.8rem;
+    width: 30vw;
+    background-color: white;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+.logo {
+    width: 12vw;
+}
+
+.btn-login {
+    width: 12vw;
+    padding: 1rem;
+    background-image: linear-gradient(to bottom right, #41dbec, #23eea7);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: scale(1.03);
+  }
